@@ -1,2 +1,7 @@
-# Smart-Parking-Allocation-System
-Java-based Smart Parking Allocation System using Swing GUI and MySQL
+# Smart Parking Allocation System
+
+**Smart Parking Allocation System** is a Java-based parking management application designed to optimize parking space allocation according to vehicle arrival time, available time, and walking distance from the entrance. Unlike traditional systems that simply assign the nearest available parking slot, it follows a time-based allocation approach in which vehicles with more available time can be assigned to farther slots, while vehicles with limited time are prioritized for closer slots. This helps reduce unnecessary walking and promotes efficient utilization of parking spaces.
+
+The system dynamically generates a parking layout based on the user-provided plot length and width. It calculates and arranges the maximum feasible parking slots according to the available dimensions, while considering essential layout elements such as entrance and exit lanes, driving aisles, turning areas, and pedestrian pathways. Each parking slot is assigned a calculated walking time based on its position within the layout.
+
+The application features a graphical user interface developed using Java Swing and integrates MySQL for storing and managing parking areas, slot availability, and vehicle parking records. It provides real-time occupancy updates, vehicle allocation and slot-release functionality, duplicate vehicle-entry prevention, and a visual parking map that distinguishes occupied and available slots. Overall, the system aims to improve parking space utilization, provide organized vehicle management, and make parking allocation more systematic and efficient.
